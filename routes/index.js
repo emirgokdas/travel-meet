@@ -1,7 +1,7 @@
 var express = require('express');
-var router = express.Router();
+var router = express.router();
 
-/* GET home page. */
+/* get home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'hadila' });
 });
